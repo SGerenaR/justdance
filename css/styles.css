@@ -1,0 +1,105 @@
+
+/* ---------- MOBILE STYLES ---------- */
+.container {
+  text-align: center;
+  /*left: 50%;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+}
+.borders{
+  border: 1px solid black;
+}
+
+input.txt {
+  color: #00008B;
+  background-color: #E3F2F7;
+  border: 1px inset #00008B;
+  width: 80px;
+}
+input.btn {
+  color: #00008B;
+  background-color: #ADD8E6;
+  border: 1px outset #00008B;
+}
+form div {
+  clear: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 0.1em;
+}
+form div label {
+  float: left;
+  width: 10%;
+  font: bold 0.9em Arial, Helvetica, sans-serif;
+}
+.topcorner {
+    position:absolute;
+    top:100px;
+    right:300px;
+}
+.logout {
+    position:absolute;
+    top:150px;
+    right:300px;
+}
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    width: 20%;
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    width: 20%;
+}
+.body {
+    
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height:610px;
+    background-color: #FFFFFF;
+
+}
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #E7E6E4;
+}
+.pageTitle {
+    margin-top: 0;
+}
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #064780;
+}
+.podbar {
+    margin-left: auto;
+    margin-right: auto;
+    width:79.4%;
+    height:40px;
+    position:absolute;
+    left: 10.3%;
+    background: #064780;
+    bottom:10px;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  font: cursive, Arial;
+  border-color: 10px navy;
+}

@@ -1,0 +1,61 @@
+<div class="wrap">
+    <div class="text-center">
+                <div class="container center_div">
+                    <p class="form-title"><h2>Sign In</h2>
+                </div>
+    </div>
+<form class="form-inline" method="post" action="login.php">
+    <div class="form-group">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+                <div class="text-center">
+                    <label class="sr-only" for="exampleInputEmail3">Username</label>
+                        <div class="container center_div">
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+                        </div>
+                        <br>
+                </div>
+            </div>
+        </div>
+    </div>
+        <br>
+    <div class="row">
+        <div class="col-md-12 control">
+            <div class="form-group">
+                <div class="text-center">
+                    <label class="sr-only" for="exampleInputName2">Password</label>
+                        <div class="container center_div">
+                            <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                        </div>           
+                </div>
+            </div>
+        </div>
+            <br>
+            <br>
+            <br>
+            <div class="text-center">
+                <div class="checkbox">
+                    <div class="container center_div">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                </div>
+            <br>
+            <div class="form-group">
+                <div class="col-md-12 control">
+                    
+                    <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
+                        Don't have an account! 
+                        <a href="home.php?page=registration" onClick="$('#loginbox').hide(); $('#signupbox').show()">
+                        Sign Up Here
+                        </a>
+                    </div>
+                </div>
+            </div>
+                <br>
+                <br>
+        <div class="container center_div">
+            <button type="submit" name="button" id="button" class="btn btn-success btn" >Sign In</button>
+        </div>
+            </div> 
+    </div>
+</form>
